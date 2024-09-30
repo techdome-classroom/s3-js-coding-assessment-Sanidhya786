@@ -7,7 +7,6 @@ public class Solution {
         
         // Loop through each character in the string
         for (char c : s.toCharArray()) {
-            // If it's an opening bracket, push it onto the stack
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
             }
