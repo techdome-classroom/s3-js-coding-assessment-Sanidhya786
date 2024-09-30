@@ -16,17 +16,13 @@ var romanToInt = function romanToInt(s) {
 
     let total = 0;
     
-    // Loop through each character in the string
     for (let i = 0; i < s.length; i++) {
-        // Get the value of the current numeral and the next numeral
         const currentVal = romanMap[s[i]];
         const nextVal = romanMap[s[i + 1]];
 
-        // If the current numeral is less than the next one, subtract it from total
         if (currentVal < nextVal) {
             total -= currentVal;
         } else {
-            // Otherwise, add it to total
             total += currentVal;
         }
     }
