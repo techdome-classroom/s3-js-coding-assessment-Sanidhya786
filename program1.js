@@ -2,8 +2,8 @@
  * @param {string} s
  * @return {boolean}
  */
-import java.util.Stack;
 var isValid = function(s) {
+    import java.util.Stack;
 
 public class Solution {
     
