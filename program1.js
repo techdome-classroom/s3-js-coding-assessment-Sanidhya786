@@ -22,7 +22,6 @@ public class Solution {
                 }
             }
         }
-        // If the stack is empty, the string is valid, otherwise, it's not
         return stack.isEmpty();
     }
 }
