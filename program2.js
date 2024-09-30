@@ -30,7 +30,6 @@ var romanToInt = function romanToInt(s) {
     return total;
 }
 
-// Test cases
 console.log(romanToInt("III"));    
 console.log(romanToInt("LVIII"));  
 console.log(romanToInt("MCMXCIV"));
