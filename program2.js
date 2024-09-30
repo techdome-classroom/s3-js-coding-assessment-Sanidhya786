@@ -3,7 +3,6 @@
  * @return {number}
  */
 var romanToInt = function romanToInt(s) {
-    // Map to store Roman numeral values
     const romanMap = {
         'I': 1,
         'V': 5,
