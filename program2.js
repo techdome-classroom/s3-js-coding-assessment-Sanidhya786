@@ -35,9 +35,9 @@ var romanToInt = function romanToInt(s) {
 }
 
 // Test cases
-console.log(romanToInt("III"));       // Output: 3
-console.log(romanToInt("LVIII"));     // Output: 58
-console.log(romanToInt("MCMXCIV"));   // Output: 1994
+console.log(romanToInt("III"));      3
+console.log(romanToInt("LVIII"));    58
+console.log(romanToInt("MCMXCIV"));  : 1994
 
 
 module.exports={romanToInt}
