@@ -11,9 +11,7 @@ public class Solution {
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
             }
-            // If it's a closing bracket
             else {
-                // If the stack is empty or the top of the stack doesn't match the corresponding opening bracket, return false
                 if (stack.isEmpty() || 
                    (c == ')' && stack.pop() != '(') || 
                    (c == '}' && stack.pop() != '{') || 
